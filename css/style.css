@@ -139,10 +139,17 @@ main {
 /*******************************************/
 
 
-input, button{
+input{
   width: 100%;
-  padding: 20px;
-  border-radius: 15%;
+  padding: 12px 20px;
+    margin: 8px 0;
+
+}
+
+input, button {
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
 }
 
 button:hover{
@@ -150,7 +157,11 @@ button:hover{
 }
 
 button{
-  margin-bottom: 40px;
+  margin: 0 auto  40px auto;
+  width: 50%;
+  display: block;
+  text-align: center;
+
 }
 
 .link {
