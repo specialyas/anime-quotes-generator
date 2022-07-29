@@ -71,11 +71,21 @@ button:hover{
 }
 
 button{
-  margin: 0 auto  40px auto;
+  /* 
   width: 50%;
-  display: block;
+  
   text-align: center;
-
+  padding: 15px; */
+  margin: 0 auto  40px auto;
+  min-height: 50px;
+  width: 50%;
+  border-color: transparent;
+  background-color: #70709f;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  padding-bottom: 6px;
+  border-width: 0;
 }
 
 .link {
@@ -89,6 +99,11 @@ button{
   main{
     display: block;
     padding: 10px;
+    width: 100%;
+    border: 1px solid white;
+
+  }
+  button{
     width: 100%;
   }
 }
