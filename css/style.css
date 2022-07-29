@@ -90,6 +90,8 @@ button{
 
 .link {
   color: white;
+  font-style: italic;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 480px){
